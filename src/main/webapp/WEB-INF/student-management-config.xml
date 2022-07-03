@@ -32,7 +32,7 @@
 		</property>
 		<property name="username" value="root">
 		</property>
-		<property name="password" value="H@1997Jan">
+		<property name="password" value="admin@123">
 		</property>
 		
 	</bean>
