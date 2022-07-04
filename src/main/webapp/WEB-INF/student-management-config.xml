@@ -32,11 +32,7 @@
 		</property>
 		<property name="username" value="root">
 		</property>
-<<<<<<< HEAD
-<!--		<property name="password" value="H@1997Jan">-->
 		<property name="password" value="admin@123">
-
->>>>>>> 3616c9214e32294d33cef530b3fae84c1d5bbb87
 		</property>
 		
 	</bean>
