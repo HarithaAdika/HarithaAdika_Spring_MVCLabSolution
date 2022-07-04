@@ -54,8 +54,8 @@
 						class="btn btn-danger btn-sm"
 						onclick="if(!(confirm('Are you sure  to delete  this book?'))) return false">Delete</a> -->
 						
-						<a href="update?id=${student.student_Id}" class="btn btn-info btn-sm">Update</a>
-						<a href="delete?id=${student.student_Id}"
+						<a href="update?id=${student.id}" class="btn btn-info btn-sm">Update</a>
+						<a href="delete?id=${student.id}"
 						class="btn btn-danger btn-sm"
 						onclick="if(!(confirm('Are you sure  to delete  this book?'))) return false">Delete</a>
 					</td>

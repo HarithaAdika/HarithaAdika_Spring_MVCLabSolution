@@ -27,9 +27,9 @@
 <body>
 	<div class="container">
 		<h3>Add Student Details to Directory</h3>
-		<!-- <form action="Student_Management/students/save" method="post"> -->
-		<form action="save" method="post">
-			<input type="hidden" name="id" value="${student.student_Id}">
+		<form action="Student_Management/students/save" method="POST"> 
+		<!-- <form action="save" method="POST">-->
+			<input type="hidden" name="id" value="${student.id}">
 			<div class="form-inline">
 				<label class="studentForm">Student First Name</label><br>
 			</div>
@@ -63,8 +63,8 @@
 			</div>
 			<button type="submit" class="btn btn-info col-2">Submit</button>
 		</form>
-		<!--  <a href="Student_Management/students/list">Back to Students Lists</a>-->
-		<a href="list">Back to Students Lists</a>
+		<a href="Student_Management/students/list">Back to Students Lists</a>
+		<!--  <a href="list">Back to Students Lists</a>-->
 	</div>
 
 
