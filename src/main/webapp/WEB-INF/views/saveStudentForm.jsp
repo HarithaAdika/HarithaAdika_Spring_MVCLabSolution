@@ -41,11 +41,11 @@
 		<form action="/Student_Management/student/save" method="post">
 
 			<!-- Add hidden form field to handle update -->
-			<input type="hidden" name="id" value="${StudentDetails.id}" />
+			<input type="hidden" name="id" value="${Student.id}" />
 
 			<div class="form-inline">
 				<input type="text" name="firstName"
-					value="${StudentDetails.firstName}" class="form-control mb-4 col-4"
+					value="${Student.firstName}" class="form-control mb-4 col-4"
 					placeholder="Enter Student Frist Name">
 
 			</div>
@@ -53,15 +53,15 @@
 			<div class="form-inline">
 
 				<input type="text" name="lastName"
-					value="${StudentDetails.lastName}" class="form-control mb-4 col-4"
+					value="${Student.lastName}" class="form-control mb-4 col-4"
 					placeholder="Enter Student Last Name">
 
 			</div>
 
 			<div class="form-inline">
 
-				<input type="text" name="course"
-					value="${StudentDetails.department}"
+				<input type="text" name="department"
+					value="${Student.department}"
 					class="form-control mb-4 col-4"
 					placeholder="Enter Student Department">
 
@@ -70,7 +70,7 @@
 			</div>
 			<div class="form-inline">
 
-				<input type="text" name="country" value="${StudentDetails.country}"
+				<input type="text" name="country" value="${Student.country}"
 					class="form-control mb-4 col-4" placeholder="Enter Student Country">
 
 			</div>
